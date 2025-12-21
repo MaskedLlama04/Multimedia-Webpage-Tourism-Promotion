@@ -1,0 +1,48 @@
+.hero {
+  height: 70vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  transition: background-image 1s ease-in-out;
+}
+
+/* Text over image */
+.overlay {
+  position: absolute;
+  bottom: 60px;
+  left: 60px;
+  color: white;
+}
+
+.overlay h1 {
+  font-size: 48px;
+}
+
+.overlay p {
+  font-size: 20px;
+}
+
+/* Navigation arrows */
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  font-size: 40px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.arrow.left {
+  left: 20px;
+}
+
+.arrow.right {
+  right: 20px;
+}
+
+.arrow:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
