@@ -6,17 +6,38 @@ import monastery from "../../assets/images/building.jpg";
 import casino from "../../assets/images/casino.jpg";
 import festival from "../../assets/images/festival.jpg";
 
+// Import audio explanation
+import explanationAudio from "../../assets/audio/ocean_waves.mp3";
+
 function Activities() {
+
+  // Function to play the audio explanation
+  const playAudio = () => {
+    const audio = new Audio(explanationAudio);
+    audio.play();
+  };
+
   return (
-    <section className="activities">
+    <section className="activities" id="activities">
       {/* Section title */}
       <h2>What can you do here</h2>
 
       {/* ================= ACTIVITY 1 ================= */}
       <div className="activity">
-        {/* Text content */}
         <div className="activity-text">
-          <h3>1. Monastery</h3>
+
+          {/* Title + audio button */}
+          <div className="activity-title">
+            <h3>1. Monastery</h3>
+            <button
+              className="audio-btn"
+              onClick={playAudio}
+              aria-label="Listen to explanation"
+            >
+              🔊 Listen
+            </button>
+          </div>
+
           <p>
             The Benedictine monastery complex is the most important heritage
             site in the city. It preserves elements such as the Romanesque
@@ -30,23 +51,25 @@ function Activities() {
           </p>
         </div>
 
-        {/* Image on the right */}
         <div className="activity-image">
           <img src={monastery} alt="Monastery of Sant Feliu de Guíxols" />
         </div>
       </div>
 
       {/* ================= ACTIVITY 2 ================= */}
-      {/* Reversed layout: image on the left */}
       <div className="activity reverse">
-        {/* Image */}
         <div className="activity-image">
           <img src={casino} alt="Casino La Constància" />
         </div>
 
-        {/* Text content */}
         <div className="activity-text">
-          <h3>2. Casino La Constància</h3>
+          <div className="activity-title">
+            <h3>2. Casino La Constància</h3>
+            <button className="audio-btn" onClick={playAudio}>
+              🔊 Listen
+            </button>
+          </div>
+
           <p>
             Casino La Constància is one of the most emblematic modernist
             buildings in Sant Feliu de Guíxols. Built at the end of the
@@ -63,9 +86,14 @@ function Activities() {
 
       {/* ================= ACTIVITY 3 ================= */}
       <div className="activity">
-        {/* Text content */}
         <div className="activity-text">
-          <h3>3. Guíxols Arena</h3>
+          <div className="activity-title">
+            <h3>3. Guíxols Arena</h3>
+            <button className="audio-btn" onClick={playAudio}>
+              🔊 Listen
+            </button>
+          </div>
+
           <p>
             Guíxols Arena is a modern open-air venue that hosts some of the
             most important events and festivals in the area, especially
@@ -78,7 +106,6 @@ function Activities() {
           </p>
         </div>
 
-        {/* Image on the right */}
         <div className="activity-image">
           <img src={festival} alt="Guíxols Arena festival" />
         </div>

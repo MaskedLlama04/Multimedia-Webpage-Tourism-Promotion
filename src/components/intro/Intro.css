@@ -1,0 +1,30 @@
+.intro {
+  padding: 80px 60px;
+  background-color: #f9f9f9;
+}
+
+/* Two-column grid layout */
+.intro-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  align-items: center;
+}
+
+/* Image styling */
+.intro-image img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+/* Text styling */
+.intro-text h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.intro-text p {
+  font-size: 17px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}

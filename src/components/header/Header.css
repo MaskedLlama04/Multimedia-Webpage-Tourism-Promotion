@@ -32,3 +32,16 @@
 .nav-menu a:hover {
   color: #1e90ff;
 }
+
+.practical-btn {
+  background: none;
+  border: none;
+  color: black;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.practical-btn:hover {
+  color: #00a3e0;
+}
+

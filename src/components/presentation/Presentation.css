@@ -1,0 +1,31 @@
+.presentation {
+  padding: 80px 60px;
+  background-color: #ffffff;
+}
+
+/* Two-column grid */
+.presentation-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  align-items: center;
+}
+
+/* Text styling */
+.presentation-text h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.presentation-text p {
+  font-size: 17px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+/* Video styling */
+.presentation-video video {
+  width: 100%;
+  border-radius: 6px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}

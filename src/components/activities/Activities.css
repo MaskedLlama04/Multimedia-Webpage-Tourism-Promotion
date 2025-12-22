@@ -51,3 +51,35 @@
   width: 400px;
   border-radius: 4px;
 }
+
+/* Title + audio button container */
+.activity-title {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+/* Audio button styling */
+.audio-btn {
+  background-color: #00a3e0;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  padding: 6px 16px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+/* Hover effect */
+.audio-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+}
+
+/* Optional: stop button selection outline */
+.audio-btn:focus {
+  outline: none;
+}

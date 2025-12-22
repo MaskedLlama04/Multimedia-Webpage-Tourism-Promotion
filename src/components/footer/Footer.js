@@ -9,7 +9,7 @@ function Footer() {
 
       {/* Secondary text */}
       <p className="footer-sub">
-        Empordà · Costa Brava · Catalonia
+        Baix Empordà · Costa Brava · Catalonia
       </p>
     </footer>
   );
