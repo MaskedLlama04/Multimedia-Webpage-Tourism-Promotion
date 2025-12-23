@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "Hotel Sant Pol",
+    "image": "hotel1.jpg",
+    "stars": 4,
+    "timetable": "24h reception",
+    "location": "Sant Pol beach",
+    "description": "A charming hotel located right in front of the sea, ideal for relaxing stays with beautiful views."
+  },
+  {
+    "id": 2,
+    "name": "Hotel Eden Roc",
+    "image": "hotel2.jpg",
+    "stars": 4,
+    "timetable": "Check-in from 14:00",
+    "location": "Punta Port Salvi",
+    "description": "Modern hotel surrounded by nature, featuring pools, spa services, and direct sea access."
+  },
+  {
+    "id": 3,
+    "name": "Hotel Montjoi",
+    "image": "hotel3.jpg",
+    "stars": 3,
+    "timetable": "Check-in from 13:00",
+    "location": "Town center",
+    "description": "Comfortable and affordable hotel close to shops, restaurants, and cultural attractions."
+  },
+  {
+    "id": 4,
+    "name": "Hotel Barcarola",
+    "image": "hotel4.jpg",
+    "stars": 3,
+    "timetable": "Reception until 22:00",
+    "location": "Near Sant Pol",
+    "description": "Family-friendly hotel with a calm atmosphere and easy access to the beach."
+  },
+  {
+    "id": 5,
+    "name": "Hotel Hostal del Sol",
+    "image": "hotel5.jpg",
+    "stars": 2,
+    "timetable": "Reception until 21:00",
+    "location": "Residential area",
+    "description": "A cozy hostal offering simple rooms and a welcoming, home-like environment."
+  },
+  {
+    "id": 6,
+    "name": "Hotel Elke Spa",
+    "image": "hotel6.jpg",
+    "stars": 4,
+    "timetable": "24h reception",
+    "location": "Seafront promenade",
+    "description": "Elegant hotel with spa facilities, perfect for luxury and wellness experiences."
+  }
+]

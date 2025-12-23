@@ -1,10 +1,13 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./Sleep.css";
 
 // Hero image
 import night from "../../assets/images/night.jpg";
 
-// Hotel images
+// Import hotel data from data folder (so its basicllay easier to work with the data)
+import hotelsData from "../../data/hotels.json";
+
+// Import hotel images
 import h1 from "../../assets/images/hotel1.jpg";
 import h2 from "../../assets/images/hotel2.jpg";
 import h3 from "../../assets/images/hotel3.jpg";
@@ -12,73 +15,28 @@ import h4 from "../../assets/images/hotel4.jpg";
 import h5 from "../../assets/images/hotel5.jpg";
 import h6 from "../../assets/images/hotel6.jpg";
 
-// Hotel data
-const hotels = [
-  {
-    id: 1,
-    name: "Hotel Sant Pol",
-    image: h1,
-    stars: 4,
-    timetable: "24h reception",
-    location: "Sant Pol beach",
-    description:
-      "A charming hotel located right in front of the sea, ideal for relaxing stays with beautiful views."
-  },
-  {
-    id: 2,
-    name: "Hotel Eden Roc",
-    image: h2,
-    stars: 4,
-    timetable: "Check-in from 14:00",
-    location: "Punta Port Salvi",
-    description:
-      "Modern hotel surrounded by nature, featuring pools, spa services, and direct sea access."
-  },
-  {
-    id: 3,
-    name: "Hotel Montjoi",
-    image: h3,
-    stars: 3,
-    timetable: "Check-in from 13:00",
-    location: "Town center",
-    description:
-      "Comfortable and affordable hotel close to shops, restaurants, and cultural attractions."
-  },
-  {
-    id: 4,
-    name: "Hotel Barcarola",
-    image: h4,
-    stars: 3,
-    timetable: "Reception until 22:00",
-    location: "Near Sant Pol",
-    description:
-      "Family-friendly hotel with a calm atmosphere and easy access to the beach."
-  },
-  {
-    id: 5,
-    name: "Hotel Hostal del Sol",
-    image: h5,
-    stars: 2,
-    timetable: "Reception until 21:00",
-    location: "Residential area",
-    description:
-      "A cozy hostal offering simple rooms and a welcoming, home-like environment."
-  },
-  {
-    id: 6,
-    name: "Hotel Elke Spa",
-    image: h6,
-    stars: 4,
-    timetable: "24h reception",
-    location: "Seafront promenade",
-    description:
-      "Elegant hotel with spa facilities, perfect for luxury and wellness experiences."
-  }
-];
+// Map image filenames to imported images
+const imageMap = {
+  "hotel1.jpg": h1,
+  "hotel2.jpg": h2,
+  "hotel3.jpg": h3,
+  "hotel4.jpg": h4,
+  "hotel5.jpg": h5,
+  "hotel6.jpg": h6
+};
 
 function Sleep() {
-  // State to store the selected hotel
+  const [hotels, setHotels] = useState([]);
   const [selectedHotel, setSelectedHotel] = useState(null);
+
+  useEffect(() => {
+    // Load hotels and map images
+    const hotelsWithImages = hotelsData.map(hotel => ({
+      ...hotel,
+      imageUrl: imageMap[hotel.image]
+    }));
+    setHotels(hotelsWithImages);
+  }, []);
 
   return (
     <section className="sleep">
@@ -89,7 +47,7 @@ function Sleep() {
       {selectedHotel && (
         <div className="hotel-info">
           <img
-            src={selectedHotel.image}
+            src={selectedHotel.imageUrl}
             alt={selectedHotel.name}
           />
 
@@ -110,7 +68,7 @@ function Sleep() {
         {hotels.map((hotel) => (
           <img
             key={hotel.id}
-            src={hotel.image}
+            src={hotel.imageUrl}
             alt={hotel.name}
             onClick={() => setSelectedHotel(hotel)}
             className="hotel-thumb"

@@ -6,72 +6,116 @@ function PracticalInfo({ isOpen, onClose }) {
   if (!isOpen) return null;
 
   return (
-    <div className="practical-overlay">
-      <div className="practical-panel">
+    <div className="practical-overlay" onClick={onClose}>
+      <div className="practical-panel" onClick={(e) => e.stopPropagation()}>
         {/* Close button */}
         <button className="close-btn" onClick={onClose}>
           ✕
         </button>
 
-        <h2>Practical Information</h2>
+        <h2 className="main-title">Practical Information</h2>
 
-        {/* ================= BY CAR ================= */}
-        <h3>By car</h3>
-        <p>
-          Take the AP-7 motorway until exit 9 (Lloret de Mar / Sant Feliu de
-          Guíxols). The last 30 km are via the C-65 dual carriageway.
-        </p>
-        <p>
-          All motorways to reach Sant Feliu de Guíxols are toll-free.
-        </p>
-        <p>
-          More information:{" "}
+        {/* Official Website Section */}
+        <div className="info-card website-card">
+          <div className="card-icon">🌐</div>
+          <h3>Official Website</h3>
+          <p>Visit our official tourism portal for more information</p>
           <a
-            href="https://www.autopistas.com"
+            href="https://www.guixols.cat/"
             target="_blank"
             rel="noopener noreferrer"
+            className="primary-link"
           >
-            www.autopistas.com
+            www.guixols.cat
           </a>
-        </p>
-        <p>Phone: 902 200 320</p>
+        </div>
 
-        {/* ================= BUS ================= */}
-        <h3>By bus (TEISA)</h3>
-        <p>Girona Bus Station: 972 212 319</p>
-        <p>Office phone: 972 204 868</p>
-        <p>
-          Timetables and information:{" "}
+        {/* BY CAR */}
+        <div className="info-card">
+          <div className="card-icon">🚗</div>
+          <h3>By Car</h3>
+          <p>
+            Take the <strong>AP-7 motorway</strong> until exit 9 (Lloret de Mar / Sant Feliu de
+            Guíxols). The last 30 km are via the C-65 dual carriageway.
+          </p>
+          <div className="highlight-box">
+            ✓ All motorways are toll-free
+          </div>
+          <div className="contact-info">
+            <p>
+              <strong>More info:</strong>{" "}
+              <a
+                href="https://www.autopistas.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                www.autopistas.com
+              </a>
+            </p>
+            <p><strong>Phone:</strong> 902 200 320</p>
+          </div>
+        </div>
+
+        {/* BY BUS */}
+        <div className="info-card">
+          <div className="card-icon">🚌</div>
+          <h3>By Bus (TEISA)</h3>
+          <p className="route-info">
+            <strong>Regular service to Girona:</strong><br />
+            S'Agaró → Sant Feliu de Guíxols → Santa Cristina d'Aro →
+            Llagostera → Cassà de la Selva → Llambilles → Quart →
+            La Creueta → UdG → Girona
+          </p>
+          <div className="contact-info">
+            <p><strong>Girona Bus Station:</strong> 972 212 319</p>
+            <p><strong>Office:</strong> 972 204 868</p>
+            <p>
+              <strong>Timetables:</strong>{" "}
+              <a
+                href="https://www.teisa-bus.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                www.teisa-bus.com
+              </a>
+            </p>
+          </div>
+        </div>
+
+        {/* MAP */}
+        <div className="info-card map-card">
+          <div className="card-icon">📍</div>
+          <h3>How to Get There</h3>
+          <p>Plan your route with Google Maps</p>
           <a
-            href="https://www.teisa-bus.com"
+            href="https://www.google.com/maps/dir//Sant+Feliu+de+Gu%C3%ADxols+Girona/"
             target="_blank"
             rel="noopener noreferrer"
+            className="map-button"
           >
-            www.teisa-bus.com
+            🗺️ Open in Google Maps
           </a>
-        </p>
+        </div>
 
-        <p>
-          Regular bus service to Girona:
-          <br />
-          S’Agaró – Sant Feliu de Guíxols – Santa Cristina d’Aro –
-          Llagostera – Cassà de la Selva – Llambilles – Quart –
-          La Creueta – UdG – Girona.
-        </p>
-
-        {/* ================= MAP ================= */}
-        <h3>How to get there</h3>
-        <p>
-          Plan your route using Google Maps:
-        </p>
-        <a
-          href="https://www.google.com/maps/dir//Sant+Feliu+de+Gu%C3%ADxols+Girona/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="map-link"
-        >
-          Open in Google Maps
-        </a>
+        {/* Emergency Contacts */}
+        <div className="info-card emergency-card">
+          <div className="card-icon">🚨</div>
+          <h3>Emergency Contacts</h3>
+          <div className="emergency-grid">
+            <div className="emergency-item">
+              <strong>Emergency:</strong> 112
+            </div>
+            <div className="emergency-item">
+              <strong>Police:</strong> 972 821 100
+            </div>
+            <div className="emergency-item">
+              <strong>Medical Center:</strong> 972 325 700
+            </div>
+            <div className="emergency-item">
+              <strong>Tourist Office:</strong> 972 820 051
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
