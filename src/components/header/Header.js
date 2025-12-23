@@ -15,9 +15,9 @@ function Header({onPracticalClick}) {
         <Link to="/">Welcome</Link>
         <Link to="/beaches">Coves & Beaches</Link>
         <a href="/#activities">Activities</a>
-        <a href="#sleep">Where to Sleep</a>
+        <Link to="/sleep">Where to sleep</Link>
         <Link to="/eat">Where to eat</Link>
-        <a href="#agenda">Agenda</a>
+        <Link to="/calendar">Calendar</Link>
         {/* Opens practical info tab */}
       <button 
         className="practical-btn" 

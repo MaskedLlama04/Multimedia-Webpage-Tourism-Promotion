@@ -1,0 +1,64 @@
+.sleep {
+  padding: 60px;
+}
+
+/* Hero image */
+.sleep-hero {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-bottom: 50px;
+}
+
+/* Selected hotel info panel */
+.hotel-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  margin-bottom: 60px;
+  align-items: center;
+}
+
+.hotel-info img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.hotel-text h2 {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+.hotel-text p {
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+/* Section title */
+.sleep-title {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+/* Hotel grid */
+.hotel-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+/* Thumbnails */
+.hotel-thumb {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.hotel-thumb:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}

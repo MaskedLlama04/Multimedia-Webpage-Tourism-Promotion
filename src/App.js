@@ -11,11 +11,13 @@ import Activities from "./components/activities/Activities";
 import Adventure from "./components/adventure/Adventure";
 import Footer from "./components/footer/Footer";
 import PracticalInfo from "./components/practical-info/PracticalInfo";
+import Sleep from "./components/sleep/Sleep";
 
 
 // Pages
 import Eat from "./components/eating/Eat";
 import Beaches from "./components/beaches/Beaches";
+import Calendar from "./components/calendar/Calendar";
 
 function App() {
    // State to control the Practical Info panel
@@ -45,6 +47,11 @@ function App() {
         <Route path="/eat" element={<Eat />} />
         {/* Coves & Beaches page */}
         <Route path="/beaches" element={<Beaches />} />
+        {/* Hotels & Where to sleep page*/}
+        <Route path="/sleep" element={<Sleep />} />
+        {/* See the Calendar of the events of the month page*/}
+        <Route path="/calendar" element={<Calendar />} />
+
       </Routes>
 
       {/* Practical Info floating panel */}
