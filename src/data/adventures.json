@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "Beach Yoga Session",
+    "description": "Start your day with a relaxing yoga session on Sant Pol beach with stunning sea views.",
+    "image": "yoga.jpg",
+    "startTime": "08:00",
+    "endTime": "09:30"
+  },
+  {
+    "id": 2,
+    "name": "Guided Historical Tour",
+    "description": "Explore the rich history of Sant Feliu with an expert local guide through the old town.",
+    "image": "history.jpg",
+    "startTime": "10:00",
+    "endTime": "12:00"
+  },
+  {
+    "id": 3,
+    "name": "Kayaking Adventure",
+    "description": "Paddle along the beautiful Costa Brava coastline and discover hidden coves.",
+    "image": "kayak.jpg",
+    "startTime": "09:00",
+    "endTime": "11:30"
+  },
+  {
+    "id": 4,
+    "name": "Traditional Cooking Class",
+    "description": "Learn to prepare authentic Catalan dishes with a local chef in a hands-on experience.",
+    "image": "cooking.jpg",
+    "startTime": "11:00",
+    "endTime": "14:00"
+  },
+  {
+    "id": 5,
+    "name": "Wine Tasting Tour",
+    "description": "Visit local wineries and sample the finest wines of the Empordà region.",
+    "image": "wine.jpg",
+    "startTime": "15:00",
+    "endTime": "18:00"
+  },
+  {
+    "id": 6,
+    "name": "Snorkeling Experience",
+    "description": "Discover the underwater world of the Mediterranean with all equipment provided.",
+    "image": "snorkel.jpg",
+    "startTime": "12:00",
+    "endTime": "14:30"
+  },
+  {
+    "id": 7,
+    "name": "Sunset Boat Trip",
+    "description": "Enjoy a magical sunset cruise along the coast with drinks and tapas included.",
+    "image": "boat.jpg",
+    "startTime": "19:00",
+    "endTime": "21:00"
+  },
+  {
+    "id": 8,
+    "name": "Mountain Hiking",
+    "description": "Trek through the stunning landscapes of Les Gavarres with panoramic views.",
+    "image": "hiking.jpg",
+    "startTime": "08:00",
+    "endTime": "13:00"
+  },
+  {
+    "id": 9,
+    "name": "Art Workshop",
+    "description": "Unleash your creativity in a painting workshop inspired by Costa Brava landscapes.",
+    "image": "art.jpg",
+    "startTime": "16:00",
+    "endTime": "18:30"
+  },
+  {
+    "id": 10,
+    "name": "Tapas Walking Tour",
+    "description": "Taste the best local tapas while exploring the charming streets of the town.",
+    "image": "tapas.jpg",
+    "startTime": "13:00",
+    "endTime": "15:30"
+  },
+  {
+    "id": 11,
+    "name": "Photography Walk",
+    "description": "Capture the beauty of Sant Feliu with a professional photographer as your guide.",
+    "image": "photo.jpg",
+    "startTime": "17:00",
+    "endTime": "19:00"
+  },
+  {
+    "id": 12,
+    "name": "Night Cultural Show",
+    "description": "Experience traditional Catalan music and dance in an intimate evening performance.",
+    "image": "culture.jpg",
+    "startTime": "20:00",
+    "endTime": "22:00"
+  }
+]

@@ -1,0 +1,40 @@
+.adventure-selector-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  padding: 20px 0;
+}
+
+.adventure-selector-container {
+  max-width: 1800px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 400px;
+  gap: 30px;
+  padding: 0 20px;
+}
+
+.adventure-list-section {
+  min-width: 0;
+}
+
+.cart-section {
+  position: relative;
+}
+
+/* Responsive */
+@media (max-width: 1200px) {
+  .adventure-selector-container {
+    grid-template-columns: 1fr 350px;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 968px) {
+  .adventure-selector-container {
+    grid-template-columns: 1fr;
+  }
+
+  .cart-section {
+    order: -1;
+  }
+}

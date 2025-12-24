@@ -1,7 +1,14 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import "./Adventure.css";
 
 function Adventure() {
+  const navigate = useNavigate();
+
+  const handleStartAdventure = () => {
+    navigate("/adventure-selector");
+  };
+
   return (
     <section className="adventure">
       {/* Section title */}
@@ -13,8 +20,8 @@ function Adventure() {
         personalized experience in Sant Feliu de Guíxols.
       </p>
 
-      {/* Button that will later navigate to the interaction/cart page */}
-      <button className="adventure-btn">
+      {/* Button that navigates to the adventure selector page */}
+      <button className="adventure-btn" onClick={handleStartAdventure}>
         Start your adventure
       </button>
     </section>

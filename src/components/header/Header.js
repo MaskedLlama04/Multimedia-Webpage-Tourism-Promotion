@@ -14,7 +14,7 @@ function Header({onPracticalClick}) {
       <nav className="nav-menu">
         <Link to="/">Welcome</Link>
         <Link to="/beaches">Coves & Beaches</Link>
-        <a href="/#activities">Activities</a>
+        <Link to="/adventure-selector">Plan Your Day</Link>
         <Link to="/sleep">Where to sleep</Link>
         <Link to="/eat">Where to eat</Link>
         <Link to="/calendar">Calendar</Link>

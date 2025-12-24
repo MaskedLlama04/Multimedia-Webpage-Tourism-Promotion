@@ -13,15 +13,15 @@ import Footer from "./components/footer/Footer";
 import PracticalInfo from "./components/practical-info/PracticalInfo";
 import Sleep from "./components/sleep/Sleep";
 
-
 // Pages
 import Eat from "./components/eating/Eat";
 import Beaches from "./components/beaches/Beaches";
 import Calendar from "./components/calendar/Calendar";
+import AdventureSelector from "./components/adventure/AdventureSelector";
 
 function App() {
-   // State to control the Practical Info panel
-  const [showPractical, setShowPractical] = useState(false)
+  // State to control the Practical Info panel
+  const [showPractical, setShowPractical] = useState(false);
 
   return (
     <BrowserRouter>
@@ -51,7 +51,8 @@ function App() {
         <Route path="/sleep" element={<Sleep />} />
         {/* See the Calendar of the events of the month page*/}
         <Route path="/calendar" element={<Calendar />} />
-
+        {/* Adventure selector page */}
+        <Route path="/adventure-selector" element={<AdventureSelector />} />
       </Routes>
 
       {/* Practical Info floating panel */}
