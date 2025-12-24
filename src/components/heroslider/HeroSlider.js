@@ -5,6 +5,7 @@ import "./HeroSlider.css";
 import img1 from "../../assets/images/sant-pol.jpg";
 import img2 from "../../assets/images/beach.jpg";
 import img3 from "../../assets/images/port.jpg";
+import img4 from "../../assets/images/seafront.jpg"
 
 // Slider content array
 const slides = [
@@ -22,7 +23,13 @@ const slides = [
     image: img3,
     title: "The Port",
     subtitle: "Mediterranean charm"
+  },
+  {
+    image: img4,
+    title: "Seafront Walking Path",
+    subtitle: "Feel the fresh air of the sea"
   }
+  
 ];
 
 function HeroSlider() {

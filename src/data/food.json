@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Fresh Seafood Platter",
+    "image": "food1.jpg",
+    "description": "A delightful selection of the freshest catches from the Mediterranean, including prawns, mussels, and local fish, prepared with traditional coastal flavors."
+  },
+  {
+    "id": 2,
+    "name": "Grilled Sea Bass",
+    "image": "food2.jpg",
+    "description": "Locally caught sea bass grilled to perfection with olive oil, garlic, and herbs. A classic Costa Brava dish that highlights the natural flavors of the sea."
+  },
+  {
+    "id": 3,
+    "name": "Mediterranean Paella",
+    "image": "food3.jpg",
+    "description": "Traditional Catalan rice dish cooked with seafood, saffron, and seasonal vegetables. A must-try specialty that captures the essence of Mediterranean cuisine."
+  },
+  {
+    "id": 4,
+    "name": "Catalan Tapas Selection",
+    "image": "food4.jpg",
+    "description": "An assortment of traditional tapas including pa amb tomàquet, local cheeses, cured meats, and olives. Perfect for sharing and experiencing authentic flavors."
+  },
+  {
+    "id": 5,
+    "name": "Black Rice with Squid",
+    "image": "food5.jpg",
+    "description": "Aromatic rice dish colored with squid ink, featuring tender pieces of squid and aioli. A regional favorite known for its bold, savory taste."
+  },
+  {
+    "id": 6,
+    "name": "Suquet de Peix",
+    "image": "food6.jpg",
+    "description": "Traditional fisherman's stew with a rich tomato and almond sauce, featuring a variety of local fish and shellfish. A hearty, comforting dish full of flavor."
+  },
+  {
+    "id": 7,
+    "name": "Crema Catalana",
+    "image": "food7.jpg",
+    "description": "The iconic Catalan dessert with a rich custard base topped with caramelized sugar. Similar to crème brûlée but with distinctive citrus and cinnamon notes."
+  },
+  {
+    "id": 8,
+    "name": "Local Wine & Cheese",
+    "image": "food8.jpg",
+    "description": "A curated selection of regional wines from Empordà paired with artisanal local cheeses. Experience the perfect harmony of flavors from the region."
+  }
+]
