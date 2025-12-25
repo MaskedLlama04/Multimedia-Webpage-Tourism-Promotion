@@ -4,7 +4,7 @@ import "./Sleep.css";
 // Hero image
 import night from "../../assets/images/night.jpg";
 
-// Import hotel data from data folder (so its basicllay easier to work with the data)
+// Import hotel data from data folder
 import hotelsData from "../../data/hotels.json";
 
 // Import hotel images
@@ -40,8 +40,28 @@ function Sleep() {
 
   return (
     <section className="sleep">
+      {/* Page title */}
+      <h1 className="sleep-main-title">Choose your sleeping place</h1>
+
       {/* Hero image */}
       <img src={night} alt="Sant Feliu at night" className="sleep-hero" />
+
+      {/* Introduction text */}
+      <div className="sleep-intro">
+        <p>
+          A good night's rest is essential to fully enjoy your stay in Sant Feliu de Guíxols. 
+          Choosing the right accommodation can make all the difference in your travel experience, 
+          providing you with comfort, relaxation, and the perfect base to explore everything 
+          this beautiful coastal town has to offer.
+        </p>
+        <p>
+          Whether you prefer a luxurious beachfront hotel with spa services, a charming family-run 
+          establishment in the heart of town, or a cozy hostal with a welcoming atmosphere, 
+          Sant Feliu de Guíxols has excellent options to suit every preference and budget. 
+          Below you'll find some of the best accommodations in the area, each offering unique 
+          amenities and easy access to the town's beaches, restaurants, and attractions.
+        </p>
+      </div>
 
       {/* Hotel info panel (only appears when one is selected) */}
       {selectedHotel && (
