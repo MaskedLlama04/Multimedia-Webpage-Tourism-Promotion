@@ -5,12 +5,21 @@ import monastery from "../../assets/images/building.jpg";
 import casino from "../../assets/images/casino.jpg";
 import festival from "../../assets/images/festival.jpg";
 
-// Import audio explanation
-import explanationAudio from "../../assets/audio/ocean_waves.mp3";
+// Import audio files
+import monasteryAudio from "../../assets/audio/monastery.mp3";
+import casinoAudio from "../../assets/audio/casino.mp3";
+import arenaAudio from "../../assets/audio/arena.mp3";
 
 function Activities() {
   const [currentlyPlaying, setCurrentlyPlaying] = useState(null);
   const audioRef = useRef(null);
+
+  // Map activity IDs to their audio files
+  const audioFiles = {
+    1: monasteryAudio,
+    2: casinoAudio,
+    3: arenaAudio
+  };
 
   // Function to play the audio explanation
   const playAudio = (activityId) => {
@@ -20,8 +29,8 @@ function Activities() {
       audioRef.current.currentTime = 0;
     }
 
-    // Create and play new audio
-    const audio = new Audio(explanationAudio);
+    // Create and play new audio for the specific activity
+    const audio = new Audio(audioFiles[activityId]);
     audioRef.current = audio;
     setCurrentlyPlaying(activityId);
 
@@ -47,7 +56,7 @@ function Activities() {
   return (
     <section className="activities" id="activities">
       {/* Section title */}
-      <h2>What can you do here</h2>
+      <h2>Some of the most popular places here</h2>
 
       {/* ================= ACTIVITY 1 ================= */}
       <div className="activity">
@@ -72,12 +81,16 @@ function Activities() {
             The Benedictine monastery complex is the most important heritage
             site in the city. It preserves elements such as the Romanesque
             Porta Ferrada (10th century), which has become a symbol of
-            Sant Feliu de Guíxols.
+            Sant Feliu de Guíxols. Sant Benet's Arch is even considered
+            a national interest for Catalonia!
           </p>
           <p>
             The Church of Mare de Déu dels Àngels and the Corn and Fum towers
             are also part of the monastic complex, which will soon host
-            the Carmen Thyssen – Bornemisza Art Centre.
+            the Carmen Thyssen – Bornemisza Art Centre. It's a wonderful
+            place for families and visitors to learn more about history and art.
+            Apart from that, you can find the municipal theatre really close,
+            so it is really easy to have a greay day visiting this place.
           </p>
         </div>
         <div className="activity-image">
@@ -105,12 +118,14 @@ function Activities() {
           <p>
             Casino La Constància is one of the most emblematic modernist
             buildings in Sant Feliu de Guíxols. Built at the end of the
-            19th century, it reflects the cultural and social life of the
+            19th century, so the young men could have some fun after a long
+            day at the factory, it reflects the cultural and social life of the
             city during its golden age.
           </p>
           <p>
             Today, visitors can admire its architecture, attend cultural
-            events, exhibitions, and concerts, or simply enjoy the lively
+            events, exhibitions, concerts and even check the old books
+            from the library on the top floor. Simply enjoy the lively
             atmosphere of one of the city's most historic meeting points.
           </p>
         </div>
@@ -133,12 +148,15 @@ function Activities() {
           <p>
             Guíxols Arena is a modern open-air venue that hosts some of the
             most important events and festivals in the area, especially
-            during the summer months.
+            during the summer months. The country's biggest artists come 
+            here to make sure you have a good time, so check regularly the events!
           </p>
           <p>
-            Here you can enjoy live music concerts, cultural festivals,
-            gastronomic fairs, and large community events, all just a few
-            steps away from the sea in a vibrant Mediterranean atmosphere.
+            During those times, you can enjoy live music concerts, 
+            cultural festivals, gastronomic fairs, and large community events, 
+            all, just a few steps away from the sea in a vibrant Mediterranean atmosphere.
+            Apart from that, due to the fact that there is a highschool next to it, you can even
+            practice some sports while you are waiting for the music to start!
           </p>
         </div>
         <div className="activity-image">
