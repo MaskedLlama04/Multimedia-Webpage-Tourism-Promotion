@@ -2,7 +2,7 @@ import React from "react";
 import "./Presentation.css";
 
 // Import the video file
-import streetTour from "../../assets/videos/hourglass.mp4";
+import streetTour from "../../assets/videos/town-tour.mp4";
 
 function Presentation() {
   return (
