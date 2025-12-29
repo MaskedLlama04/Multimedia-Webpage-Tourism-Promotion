@@ -1,56 +1,56 @@
 [
   {
     "id": 1,
-    "name": "Hotel Sant Pol",
+    "name": "Barcarola Hotel",
     "image": "hotel1.jpg",
     "stars": 4,
     "timetable": "24h reception",
     "location": "Sant Pol beach",
-    "description": "A charming hotel located right in front of the sea, ideal for relaxing stays with beautiful views."
+    "description": "A charming four-star hotel located directly in front of Sant Pol beach, offering beautiful Mediterranean sea views and a calm, relaxing atmosphere.\n\nThe hotel combines traditional coastal style with modern comforts. Rooms are bright, comfortable, and well-equipped, many with private balconies overlooking the sea.\n\nThanks to its beachfront location and 24-hour reception, it is an ideal choice for couples, families, and travelers looking to enjoy the beach with total convenience."
   },
   {
     "id": 2,
-    "name": "Hotel Eden Roc",
+    "name": "Eden Roc Hotel",
     "image": "hotel2.jpg",
     "stars": 4,
     "timetable": "Check-in from 14:00",
     "location": "Punta Port Salvi",
-    "description": "Modern hotel surrounded by nature, featuring pools, spa services, and direct sea access."
+    "description": "A modern four-star hotel set in the exclusive Punta Port Salvi area, surrounded by nature and offering stunning coastal views.\n\nThe hotel features several outdoor pools, a full spa and wellness center, and direct access to small rocky coves perfect for swimming and snorkeling.\n\nWith spacious rooms, Mediterranean cuisine, and a peaceful setting, Eden Roc is ideal for travelers seeking luxury, relaxation, and privacy."
   },
   {
     "id": 3,
-    "name": "Hotel Montjoi",
+    "name": "Montjoi Hotel",
     "image": "hotel3.jpg",
     "stars": 3,
     "timetable": "Check-in from 13:00",
     "location": "Town center",
-    "description": "Comfortable and affordable hotel close to shops, restaurants, and cultural attractions."
+    "description": "A comfortable three-star hotel located in the heart of Sant Feliu de Guíxols, close to shops, restaurants, and cultural attractions.\n\nThe hotel offers clean and cozy rooms with essential amenities such as air conditioning and free Wi-Fi, making it a practical option for city stays.\n\nIts central location is perfect for visitors who want to explore the town on foot and experience local life."
   },
   {
     "id": 4,
-    "name": "Hotel Barcarola",
+    "name": "Sant Pol Hotel",
     "image": "hotel4.jpg",
     "stars": 3,
     "timetable": "Reception until 22:00",
     "location": "Near Sant Pol",
-    "description": "Family-friendly hotel with a calm atmosphere and easy access to the beach."
+    "description": "A friendly three-star hotel situated in a quiet residential area just a short walk from Sant Pol beach.\n\nThe hotel offers comfortable rooms in a relaxed Mediterranean style and is especially popular with families and couples.\n\nIts peaceful location, combined with easy access to the beach and town center, makes it an excellent choice for a calm and pleasant stay."
   },
   {
     "id": 5,
-    "name": "Hotel Hostal del Sol",
+    "name": "Hostal del Sol Hotel",
     "image": "hotel5.jpg",
     "stars": 2,
     "timetable": "Reception until 21:00",
     "location": "Residential area",
-    "description": "A cozy hostal offering simple rooms and a welcoming, home-like environment."
+    "description": "A cozy two-star hostal offering a warm and authentic Catalan hospitality experience in a quiet residential neighborhood.\n\nRooms are simple, clean, and comfortable, ideal for travelers who value atmosphere and personal service over luxury.\n\nPerfect for budget-conscious visitors, solo travelers, and backpackers looking for a genuine and friendly place to stay."
   },
   {
     "id": 6,
-    "name": "Hotel Elke Spa",
+    "name": "Confortel Hotel",
     "image": "hotel6.jpg",
     "stars": 4,
     "timetable": "24h reception",
     "location": "Seafront promenade",
-    "description": "Elegant hotel with spa facilities, perfect for luxury and wellness experiences."
+    "description": "An elegant four-star hotel located on the seafront promenade, offering comfort, style, and spectacular views of the Mediterranean.\n\nThe hotel features modern rooms, a complete spa and wellness center, and high-quality dining options.\n\nIts prime location and premium services make it ideal for travelers seeking luxury, relaxation, and direct access to the seaside."
   }
 ]

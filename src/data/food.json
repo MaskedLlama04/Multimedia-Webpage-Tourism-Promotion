@@ -3,48 +3,48 @@
     "id": 1,
     "name": "Fresh Seafood Platter",
     "image": "food1.jpg",
-    "description": "A delightful selection of the freshest catches from the Mediterranean, including prawns, mussels, and local fish, prepared with traditional coastal flavors."
+    "description": "A delightful selection of the freshest catches from the Mediterranean, including succulent prawns, tender mussels, clams, and locally caught fish. Prepared with traditional coastal flavors using olive oil, garlic, lemon, and fresh herbs. This impressive platter showcases the bounty of the Costa Brava waters and is perfect for sharing with friends and family while enjoying the sea breeze."
   },
   {
     "id": 2,
     "name": "Seafood Fritter",
     "image": "food2.jpg",
-    "description": "Locally caught sea bass grilled to perfection with olive oil, garlic, and herbs. A classic Costa Brava dish that highlights the natural flavors of the sea."
+    "description": "Crispy golden fritters made with fresh local seafood including squid, prawns, and white fish, mixed with finely chopped onions, parsley, and a hint of garlic. Lightly battered and deep-fried to perfection, these fritters are served hot with a side of alioli or romesco sauce. A beloved tapas dish that captures the authentic taste of Mediterranean coastal cuisine and pairs wonderfully with a cold local beer."
   },
   {
     "id": 3,
-    "name": "Mediterranean Prawl Cocktail",
+    "name": "Mediterranean Prawn Cocktail",
     "image": "food3.jpg",
-    "description": "Traditional Catalan rice dish cooked with seafood, saffron, and seasonal vegetables. A must-try specialty that captures the essence of Mediterranean cuisine."
+    "description": "An elegant appetizer featuring plump, fresh Mediterranean prawns served on a bed of crisp lettuce with a creamy cocktail sauce made from tomato, mayonnaise, a splash of brandy, and a hint of Worcestershire sauce. Garnished with lemon wedges and cherry tomatoes, this classic dish is a refreshing start to any meal. The prawns are cooked to perfection, maintaining their sweet, delicate flavor that exemplifies the quality of local seafood."
   },
   {
     "id": 4,
     "name": "Catalan Tapas Selection",
     "image": "food4.jpg",
-    "description": "An assortment of traditional tapas including the great bread & tomato, local cheeses, cured meats, and olives. Perfect for sharing and experiencing authentic flavors."
+    "description": "An authentic assortment of traditional Catalan tapas featuring the iconic pa amb tomàquet (bread rubbed with ripe tomato and drizzled with olive oil), a selection of artisanal local cheeses from the region, premium cured meats including fuet and jamón, marinated olives, roasted peppers, and patatas bravas. This generous spread is perfect for sharing and experiencing the genuine flavors of Catalonia while enjoying good conversation and local wine."
   },
   {
     "id": 5,
-    "name": "Black Rice with Squid",
+    "name": "Potpourri with Squid",
     "image": "food5.jpg",
-    "description": "Aromatic rice dish colored with squid ink, featuring tender pieces of squid and aioli. A regional favorite known for its bold, savory taste."
+    "description": "A vibrant and hearty Catalan dish combining tender pieces of fresh squid with a medley of seasonal vegetables including tomatoes, peppers, eggplant, and zucchini, all simmered together in a rich tomato-based sauce infused with garlic, herbs, and a touch of white wine. The squid becomes wonderfully tender while absorbing the flavors of the vegetables. Often served with crusty bread to soak up the delicious sauce, this rustic dish embodies the spirit of Mediterranean home cooking."
   },
   {
     "id": 6,
     "name": "Sandwich Guixolenc",
     "image": "food6.jpg",
-    "description": "Traditional food that has been done here for decades now. A hearty, comforting dish full of flavor with the best elements such as eggs, sauces, vegetables and more."
+    "description": "A legendary sandwich that has been a staple in Sant Feliu de Guíxols for decades, this hearty creation features layers of flavor including tender cured meats, fresh tomato, lettuce, perfectly cooked eggs (often fried or Spanish tortilla), creamy aioli or mayonnaise, and a special house sauce. All ingredients are carefully arranged between fresh, crusty bread that's lightly toasted. This substantial sandwich represents local tradition and is a favorite among both residents and visitors looking for an authentic taste of the town."
   },
   {
     "id": 7,
     "name": "Classic Tapas",
     "image": "food7.jpg",
-    "description": "The iconic Spanish dessert with a rich custard base topped with caramelized sugar. Similar to crème brûlée but with distinctive citrus and cinnamon notes."
+    "description": "A delightful assortment of Spain's most beloved small plates including crispy croquetas filled with creamy béchamel and jamón, pan-fried pimientos de padrón (small green peppers with sea salt), chunks of Spanish tortilla (potato omelet), manchego cheese cubes, anchovies, and gambas al ajillo (garlic prawns). Each tapa is carefully prepared following time-honored recipes, offering a perfect introduction to Spanish culinary culture. Ideal for sharing while sipping wine or vermouth, these classic tapas create a convivial dining experience."
   },
   {
     "id": 8,
-    "name": "Local Wine & Cheese",
+    "name": "Local Wine With Stew",
     "image": "food8.jpg",
-    "description": "A curated selection of regional wines from Empordà paired with artisanal local cheeses. Experience the perfect harmony of flavors from the region."
+    "description": "A carefully curated pairing of robust regional wines from the Empordà DO denomination with a traditional Catalan stew (such as escudella or estofat). The hearty stew features tender meat (beef, pork, or chicken), seasonal vegetables, chickpeas, and rich broth flavored with local herbs and spices, slow-cooked to perfection. The accompanying wine selection showcases the best of local viticulture, with full-bodied reds that complement the deep flavors of the stew. This combination represents the perfect harmony between Catalan cuisine and the region's winemaking heritage."
   }
 ]
