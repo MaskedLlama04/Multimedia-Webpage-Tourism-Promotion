@@ -10,7 +10,7 @@ function Presentation() {
       {/* Grid container */}
       <div className="presentation-grid">
 
-        {/* Left column: text */}
+        {/* Left column will be some text */}
         <div className="presentation-text">
           <h2>Discover the town</h2>
           <p>
@@ -27,7 +27,7 @@ function Presentation() {
           </p>
         </div>
 
-        {/* Right column: video */}
+        {/* Right column its the video I made myself */}
         <div className="presentation-video">
           <video controls>
             <source src={streetTour} type="video/mp4" />

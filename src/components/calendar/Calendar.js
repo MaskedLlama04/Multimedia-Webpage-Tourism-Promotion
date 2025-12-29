@@ -1,9 +1,10 @@
 import React, { useState } from "react";
 import "./Calendar.css";
+import eventsData from "../../data/events.json";
 
 /*
   Months available in the calendar
-  monthIndex follows JavaScript Date convention:
+  monthIndex follows JavaScript Date convention, something I learned while at work btw:
   11 = December, 0 = January, 1 = February
 */
 const months = [
@@ -11,47 +12,6 @@ const months = [
   { name: "January 2026", monthIndex: 0, year: 2026 },
   { name: "February 2026", monthIndex: 1, year: 2026 }
 ];
-
-/*
-  Events by date
-  Event types:
-  - popular → yellow
-  - food → green
-  - culture → blue
-*/
-const events = {
-  /* ================= DECEMBER ================= */
-  "2025-12-03": [{ title: "Christmas Lights Opening", type: "popular" }],
-  "2025-12-05": [{ title: "Christmas Market", type: "popular" }],
-  "2025-12-08": [{ title: "Wine & Cheese Fair", type: "food" }],
-  "2025-12-12": [{ title: "Modern Art Exhibition", type: "culture" }],
-  "2025-12-15": [{ title: "Local Choir Concert", type: "culture" }],
-  "2025-12-18": [{ title: "Traditional Food Festival", type: "food" }],
-  "2025-12-22": [{ title: "Children's Christmas Show", type: "popular" }],
-  "2025-12-24": [{ title: "Christmas Eve Concert", type: "popular" }],
-  "2025-12-31": [{ title: "New Year's Eve Party", type: "popular" }],
-
-  /* ================= JANUARY ================= */
-  "2026-01-04": [{ title: "Three Kings Parade", type: "popular" }],
-  "2026-01-07": [{ title: "Winter Gastronomy Week", type: "food" }],
-  "2026-01-10": [{ title: "Local Crafts Fair", type: "culture" }],
-  "2026-01-12": [{ title: "Theatre Night", type: "culture" }],
-  "2026-01-15": [{ title: "Traditional Rice Day", type: "food" }],
-  "2026-01-18": [{ title: "Seafood Fair", type: "food" }],
-  "2026-01-21": [{ title: "Photography Exhibition", type: "culture" }],
-  "2026-01-25": [{ title: "Local Music Festival", type: "culture" }],
-  "2026-01-30": [{ title: "Winter Sports Meetup", type: "popular" }],
-
-  /* ================= FEBRUARY ================= */
-  "2026-02-02": [{ title: "Candlemas Celebration", type: "popular" }],
-  "2026-02-06": [{ title: "Tapas Route", type: "food" }],
-  "2026-02-10": [{ title: "Independent Cinema Week", type: "culture" }],
-  "2026-02-14": [{ title: "Valentine's Dinner Specials", type: "food" }],
-  "2026-02-17": [{ title: "Carnival Parade", type: "popular" }],
-  "2026-02-19": [{ title: "Carnival Costume Contest", type: "popular" }],
-  "2026-02-22": [{ title: "Local Artists Market", type: "culture" }],
-  "2026-02-27": [{ title: "Winter Food Fair", type: "food" }]
-};
 
 function Calendar() {
   // Current selected month (index in months array)
@@ -136,7 +96,7 @@ function Calendar() {
           }
 
           const dateKey = `${year}-${String(monthIndex + 1).padStart(2, "0")}-${String(day).padStart(2, "0")}`;
-          const dayEvents = events[dateKey] || [];
+          const dayEvents = eventsData[dateKey] || [];
 
           return (
             <div key={index} className="calendar-cell">

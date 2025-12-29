@@ -85,7 +85,7 @@ function PracticalInfo({ isOpen, onClose }) {
         {/* MAP */}
         <div className="info-card map-card">
           <div className="card-icon">📍</div>
-          <h3>How to Get There</h3>
+          <h3>How to Get Here</h3>
           <p>Plan your route with Google Maps</p>
           <a
             href="https://www.google.com/maps/dir//Sant+Feliu+de+Gu%C3%ADxols+Girona/"
