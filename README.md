@@ -1,3 +1,8 @@
+# Important things to consider here
+Firstly, I would like to say that the explanation of how to locally run my website (localhost:3000) is on the "Technical Report.pdf" I have sent, around the last pages. After doing all the steps it should work. This project was done using React, with the help of JavaScript, HTML and CSS mostly (with the help of some JSON files for the data). This project was made by Pol Cañadas Costa.
+
+The following content was generated authomatically due to the fact that I used the Create React App template, so it can be ignored. 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
