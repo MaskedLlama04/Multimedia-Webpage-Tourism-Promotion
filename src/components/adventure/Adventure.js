@@ -13,7 +13,7 @@ function Adventure() {
   };
 
   useEffect(() => {
-  // ========== 3D ARROW ANIMATION (FIXED) ==========
+  // ========== 3D ARROW ANIMATION (I followed a Youtube tutorial so I hope it works!!)==========
   const scene = new THREE.Scene();
 
   const camera = new THREE.PerspectiveCamera(50, 1, 0.1, 1000);
@@ -29,7 +29,7 @@ function Adventure() {
   // ===== Arrow group =====
   const arrowGroup = new THREE.Group();
 
-  // Shaft (main body)
+  // Shaft (like the main body)
   const shaftGeometry = new THREE.CylinderGeometry(0.12, 0.12, 3, 16);
   const shaftMaterial = new THREE.MeshStandardMaterial({
     color: 0xffc107,
@@ -40,7 +40,7 @@ function Adventure() {
   shaft.rotation.z = Math.PI / 2;
   arrowGroup.add(shaft);
 
-  // Head (cone)
+  // Head (like the cone part)
   const headGeometry = new THREE.ConeGeometry(0.45, 1, 20);
   const headMaterial = new THREE.MeshStandardMaterial({
     color: 0xffc107,
@@ -97,7 +97,7 @@ function Adventure() {
         {/* Center content */}
         <div className="adventure-content">
           {/* Section title */}
-          <h2>Make your own adventure</h2>
+          <h2>Make your own adventure!</h2>
 
           {/* Short description */}
           <p>

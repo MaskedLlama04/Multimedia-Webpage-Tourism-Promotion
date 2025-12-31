@@ -1,34 +1,80 @@
 .footer {
-  background-color: #766868;
-  color: white;
-  padding: 30px 40px;
+  background: linear-gradient(
+    135deg,
+    #6b7bbd 0%,
+    #766868 50%,
+    #5f8fa8 100%
+  );
+  color: #ffffff;
+  padding: 40px 60px;
   text-align: center;
+
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 30px;
+  gap: 40px;
+
+  /* Visual separation from content */
+  border-top: 4px solid rgba(255, 255, 255, 0.2);
+
+  /* Subtle depth */
+  box-shadow: 0 -8px 20px rgba(0, 0, 0, 0.15);
 }
 
+/* Center text block */
 .footer-content {
   flex: 0 0 auto;
+  max-width: 500px;
 }
 
+/* Main footer text */
+.footer-content p {
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.4px;
+}
+
+/* Subtitle (te small text) */
 .footer-sub {
   font-size: 14px;
-  color: #000000;
-  margin-top: 5px;
+  color: rgba(255, 255, 255, 0.85);
+  margin-top: 8px;
 }
 
+/* Logos */
 .footer-logo {
   height: 80px;
   width: auto;
   object-fit: contain;
+
+  /* Here its for the hover effect */
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  opacity: 0.9;
 }
 
+.footer-logo:hover {
+  transform: scale(1.08);
+  opacity: 1;
+}
+
+/* Logo positioning */
 .footer-logo-left {
   order: -1;
 }
 
 .footer-logo-right {
   order: 1;
+}
+
+/* This is for the responsive design just in case you want to try it  */
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px 20px;
+  }
+
+  .footer-logo {
+    height: 65px;
+  }
 }

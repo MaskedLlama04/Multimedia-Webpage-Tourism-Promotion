@@ -30,9 +30,9 @@ function PracticalInfo({ isOpen, onClose }) {
           </a>
         </div>
 
-        {/* BY CAR */}
+        {/* How to arrive by car */}
         <div className="info-card">
-          <div className="card-icon">🚗</div>
+          <div className="card-icon">How to arrive...</div>
           <h3>By Car</h3>
           <p>
             Take the <strong>AP-7 motorway</strong> until exit 9 (Lloret de Mar / Sant Feliu de
@@ -56,9 +56,9 @@ function PracticalInfo({ isOpen, onClose }) {
           </div>
         </div>
 
-        {/* BY BUS */}
+        {/* Hw to arrive by bus */}
         <div className="info-card">
-          <div className="card-icon">🚌</div>
+          <div className="card-icon">How to arrive...</div>
           <h3>By Bus (TEISA)</h3>
           <p className="route-info">
             <strong>Regular service to Girona:</strong><br />
@@ -82,10 +82,10 @@ function PracticalInfo({ isOpen, onClose }) {
           </div>
         </div>
 
-        {/* MAP */}
+        {/* Look at the map */}
         <div className="info-card map-card">
           <div className="card-icon">📍</div>
-          <h3>How to Get Here</h3>
+          <h3>Check the zone yourself!</h3>
           <p>Plan your route with Google Maps</p>
           <a
             href="https://www.google.com/maps/dir//Sant+Feliu+de+Gu%C3%ADxols+Girona/"
@@ -93,7 +93,7 @@ function PracticalInfo({ isOpen, onClose }) {
             rel="noopener noreferrer"
             className="map-button"
           >
-            🗺️ Open in Google Maps
+            Open in Google Maps
           </a>
         </div>
 
