@@ -1,7 +1,7 @@
 # Important things to consider here
-Firstly, I would like to say that the explanation of how to locally run my website (localhost:3000) alongside some explanations about the project is on the "Technical Report.pdf" I have sent, around the last pages. After doing all the steps it should work (its important to follow each install command and warnings and vulnerabilities can be ignored). Also the fact that I tried to do a responsive design (I can't guarantee it will look fine in every screen, but I prepared it and in most look the way it should).
+Firstly, I would like to say that the explanation of how to locally run my website (localhost:3000) alongside some explanations about the project is on the "Technical Report.pdf" I have sent, around the last pages. After doing all the steps it should work (its important to follow each install command and warnings and vulnerabilities can be ignored, trying to fix them can only cause more problems). Also I want to mention the fact that I tried to do a responsive design (I can't guarantee it will look fine in every screen, but I prepared it and in most look the way intended). 
 
-This project was done using React, with the help of JavaScript, HTML and CSS mostly (with the help of some JSON files for the data). This project was made by Pol Cañadas Costa.
+This project was done using React, with the help of JavaScript, HTML and CSS mostly (with the help of some JSON files for the data). All multimedia files are on their respective folder. This project was made by Pol Cañadas Costa.
 
 The following content was generated authomatically due to the fact that I used the Create React App template, so it can be ignored. 
 
